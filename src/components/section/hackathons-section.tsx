@@ -58,7 +58,7 @@ export default function HackathonsSection() {
                   <div className="mt-1 flex flex-row flex-wrap items-start gap-2">
                     {hackathon.links.map((link, idx) => (
                       <Link
-                        href={link.href}
+                        href={link.href}  
                         key={idx}
                         target="_blank"
                         rel="noopener noreferrer"
